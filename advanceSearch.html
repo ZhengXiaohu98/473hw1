@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/advance.css">
+  <title>Advanced Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <!-- Main container -->
+  <div class="searchContainer">
+    <div class="nav">
+      <a href="index.html" title="Text Search">Regular Search</a>
+    </div>
+
+    <form action="https://www.google.com/search">
+      <div class="searchBarContainerAdvanced">
+        <span class="title">Search with limits</span>
+        <div class="searchInput">
+          <span class="tip">Included Words:</span>
+          <input class="textInput" autocomplete="off" type="text" name="as_q">
+        </div>
+
+        <div class="searchInput">
+          <span class="tip">Must Include Words:</span>
+          <input class="textInput" autocomplete="off" type="text" name="as_epq">
+        </div>
+
+        <div class="searchInput">
+          <span class="tip">One or Many:</span>
+          <input class="textInput" autocomplete="off" type="text" name="as_oq">
+        </div>
+
+        <div class="searchInput">
+          <span class="tip">Excluded Words:</span>
+          <input class="textInput" autocomplete="off" type="text" name="as_eq">
+        </div>
+        <input type="hidden" name="as_qdr" value="all">
+        <input type="hidden" name="as_occt" value="any">
+        <input type="hidden" name="safe" value="images">
+
+        <!-- submit button -->
+        <div class="btnContainer">
+          <input class="advanceBtn" type="submit" value="Advanced Search on Google">
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.searchContainer>a:visited {
+  color: black;
+}
+
+.searchContainer>a:hover {
+  text-decoration: underline;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainer {
+  padding: 10px;
+  align-self: flex-start;
+}
+
+.searchContainer>a {
+  margin: 0px 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.searchContainer>a:active {
+  color: black;
+}
+
+.logo {
+  padding-top: 150px;
+  width: 250px;
+  height: 175px;
+  align-self: center;
+}
+
+.logo>img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.searchBarContainer {
+  width: 70%;
+  min-width: 450px;
+  max-width: 600px;
+  margin: 0px 5px;
+  height: 3rem;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 25px;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBarContainer>img {
+  margin: 0px 20px;
+  object-fit: fill;
+  width: 25px;
+  height: 25px;
+}
+
+.searchBar {
+  width: 80%;
+  height: 2.5rem;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 15px;
+}
+
+.btnContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.searchBtn {
+  font-size: 13px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.searchBtn:hover {
+  cursor: pointer;
+  outline: 1px solid rgb(105, 105, 105);
+}
